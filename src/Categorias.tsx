@@ -3,20 +3,20 @@ import fmCat2 from './assets/fma-categoria-2.webp'
 import Image from "./components/images/Imagen";
 import Seccion from "./components/Seccion";
 import SeccionPrincipal from "./components/SeccionPrincipal";
-type Pilotos = {
-    gamertag: string,
-    auto: string,
-    // fecha1: string,
-    // fecha2: string,
-    // fecha3: string,
-    // fecha4: string,
-    // fecha5: string,
-    // fecha6: string,
-    // fecha7: string,
-    // fecha8: string,
-    // fecha9: string,
-    puntosTotales: string
-}
+// type Pilotos = {
+//     gamertag: string,
+//     auto: string,
+//     fecha1: string,
+//     fecha2: string,
+//     fecha3: string,
+//     fecha4: string,
+//     fecha5: string,
+//     fecha6: string,
+//     fecha7: string,
+//     fecha8: string,
+//     fecha9: string,
+//     puntosTotales: string
+// }
 
 function Categorias() {
     // const [pilotosLMH, setPilotosLMH] = useState<Pilotos[]>([])

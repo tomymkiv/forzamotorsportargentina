@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 interface Props {
-    apartado: string;
+    apartado?: string;
     children: ReactNode;
     clases?: string;
 }

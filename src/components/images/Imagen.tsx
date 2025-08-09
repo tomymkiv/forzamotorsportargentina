@@ -6,7 +6,7 @@ interface Props {
     clases?: string;
 }
 
-function Image(props: Props) {
+function Imagen(props: Props) {
     const { href, enlace, clases } = props;
     const [hover, setHover] = useState(false);
 
@@ -28,4 +28,4 @@ function Image(props: Props) {
     </a>
 }
 
-export default Image;
+export default Imagen;

@@ -6,8 +6,7 @@ import { RouterProvider, createHashRouter } from 'react-router-dom'
 import NotFoundPage from './NotFoundPage.tsx'
 import Categorias from './Categorias.tsx'
 import Carreras from './Carreras.tsx'
-import ResultadosMCCA from './components/ResultadosMCCA.tsx'
-import ResultadosSCC from './components/ResultadosSCC.tsx'
+import ResultadosTCA from './components/ResultadosTCA.tsx'
 
 // createHashRouter
 // Creador de rutas
@@ -15,8 +14,7 @@ const router = createHashRouter([
   { path: '/', element: <App /> }, // asigno la ruta '/' al componente "app"
   { path: '/categorias', element: <Categorias /> },
   { path: '/carreras', element: <Carreras /> },
-  { path: '/categorias/mcca', element: <ResultadosMCCA /> },
-  { path: '/categorias/scc', element: <ResultadosSCC /> },
+  { path: '/categorias/tca', element: <ResultadosTCA /> },
   { path: '*', element: <NotFoundPage /> },
 ])
 

@@ -3,7 +3,7 @@ import { type JSX, type ReactNode } from "react";
 interface Props {
     img1: JSX.Element;
     img2?: JSX.Element;
-    title: string;
+    title?: string;
     text?: string;
     clases?: string;
     children?: ReactNode
